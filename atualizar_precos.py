@@ -71,9 +71,3 @@ def distribuir_investimento(df, valor_investimento):
                 break
 
     return df
-
-
-df = pd.read_excel("dados_magic_formula.xlsx")
-df = distribuir_investimento(df, 10000)
-soma = sum(df["Recomendação Investimento"])
-df.to_excel("teste.xlsx")
