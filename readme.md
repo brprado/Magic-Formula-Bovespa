@@ -8,6 +8,7 @@ Este é um projeto de automação para extrair dados de ações usando a fórmul
 * **Extração de Dados** : Realiza o scraping de dados do site QuantBrasil e salva as informações das 30 principais ações recomendadas pela fórmula mágica.
 * **Atualização de Preços** : Atualiza os preços das ações já salvas em um arquivo Excel.
 * **Interface Gráfica** : Interface simples e intuitiva feita com Tkinter, permitindo ao usuário escolher entre executar todo o pipeline ou apenas atualizar os preços.
+* **Recomendação de Aporte** : Baseado na quantia a ser investida ele faz uma recomendação levando em conta que deve comprar todas as acoes (3.3% de aporte no minimo)
 
 ## Requisitos
 
